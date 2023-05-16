@@ -2,7 +2,7 @@ import { Feed } from "@/components";
 import { getData } from "@/utils";
 
 const Home = async () => {
-  const posts = await getData("/api/prompt");
+  const posts = await getData("http://localhost/api/prompt");
 
   return (
     <section className="w-full flex-center flex-col">
