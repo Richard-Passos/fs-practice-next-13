@@ -2,7 +2,7 @@ import { Feed } from "@/components";
 import { getData } from "@/utils";
 
 const Home = async () => {
-  const posts = await getData("http://localhost:3000/api/prompt");
+  const posts = await getData("https://promptopia-1.vercel.app/api/prompt");
 
   return (
     <section className="w-full flex-center flex-col">
