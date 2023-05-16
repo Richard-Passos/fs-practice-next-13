@@ -19,23 +19,12 @@ const PromptCardList = ({ data, handleTagClick }) => {
 };
 
 const Feed = ({ posts }) => {
-  const [allPosts, setAllPosts] = useState(posts || []);
+  const [allPosts] = useState(posts || []);
 
   // Search states
   const [searchText, setSearchText] = useState("");
   const [searchTimeout, setSearchTimeout] = useState(null);
   const [searchedResults, setSearchedResults] = useState([]);
-
-  /* const fetchPosts = async () => {
-    const response = await fetch("/api/prompt");
-    const data = await response.json();
-
-    setAllPosts(data);
-  };
-
-  useEffect(() => {
-    fetchPosts();
-  }, []); */
 
   const filterPrompts = (searchtext) => {
     const regex = new RegExp(searchtext, "i"); // 'i' flag for case-insensitive search
