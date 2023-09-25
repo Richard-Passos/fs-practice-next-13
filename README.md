@@ -16,7 +16,7 @@ Chanel: https://www.youtube.com/@javascriptmastery
 ## :wrench: Technologies used
 * Next.js
 * Next-auth
-* Mongodb
+* MongoDB
 * Mongoose
 * Bcrypt
 * TailwindCSS
