@@ -15,10 +15,10 @@ Chanel: https://www.youtube.com/@javascriptmastery
 
 ## :wrench: Technologies used
 * Next.js
-* next-auth
-* mongodb
-* mongoose
-* bcrypt
+* Next-auth
+* Mongodb
+* Mongoose
+* Bcrypt
 * TailwindCSS
 * JavaScript
 
