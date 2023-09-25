@@ -5,7 +5,11 @@
 ## :memo: Description
 Practicing Next 13.
 
-Idea from JavaScript Mastery: https://www.youtube.com/@javascriptmastery
+Idea from JavaScript Mastery:
+
+Video: https://www.youtube.com/watch?v=wm5gMKuwSYk
+
+Chanel: https://www.youtube.com/@javascriptmastery
 
 <br>
 
